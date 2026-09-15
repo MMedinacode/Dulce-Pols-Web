@@ -312,7 +312,7 @@ h1,h2,h3,h4{
 
 /* ─────────── Pie ─────────── */
 .foot{background:var(--salvia-osc);color:var(--arena);
-  padding:clamp(34px,4.5vw,54px) 0 calc(clamp(34px,4.5vw,54px) + 76px);
+  padding:clamp(34px,4.5vw,54px) 0 calc(clamp(34px,4.5vw,54px) + 130px);
   border-top:6px solid var(--dorado)}
 .foot-in{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
 .foot p{margin:0 0 5px;font-size:15px}
