@@ -23,8 +23,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&family=Poppins:wght@300;400;500;600;700&family=Just+Another+Hand&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="pulido.css">
+<link rel="stylesheet" href="styles.css?v=22092026">
+<link rel="stylesheet" href="pulido.css?v=22092026">
 
 <!-- ══════════════════════════════════════════════════════════════
      Datos estructurados (schema.org)
@@ -113,7 +113,12 @@
 <header class="head">
   <div class="head-in">
     <a class="brand" href="#inicio" data-tab="inicio" aria-label="Dulce Pols, ir al inicio">
-      <span class="brand-mark" aria-hidden="true">DP</span>
+      <!-- Su logo real, de su Instagram. Se recorta el cartucho y se le
+           redondean las esquinas: alrededor tiene un patrón de fondo que a
+           42px se leería como ruido. El nombre sigue al lado como texto,
+           porque dentro del logo no se lee a ese tamaño. -->
+      <img class="brand-logo" src="fotos/dulcepols-logo.png" alt=""
+           width="348" height="300" decoding="async">
       <span class="brand-txt"><strong>Dulce Pols</strong><em>Cafetería y pastelería · Rancagua</em></span>
     </a>
     <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
